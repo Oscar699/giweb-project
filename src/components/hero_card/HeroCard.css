@@ -1,0 +1,20 @@
+.image{
+    height: 178px; 
+    object-fit: cover;
+}
+
+.hero-card{
+    width: 20rem;
+    box-shadow:
+            0px 12.3px 2.7px rgba(0, 0, 0, 0.042),
+            0px 14.3px 6.9px rgba(0, 0, 0, 0.049),
+            0px 15.2px 14.2px rgba(0, 0, 0, 0.052),
+            0px 16.5px 29.2px rgba(0, 0, 0, 0.055),
+            0px 26px 80px rgba(0, 0, 0, 0.07);
+    transition: transform .65s ease;;
+}
+
+.hero-card:hover{
+    transform: translateY(-5px);
+}
+
